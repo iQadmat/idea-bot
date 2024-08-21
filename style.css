@@ -1,0 +1,50 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Layout */
+
+body {
+  /* background-color: #2b2d42; */
+  background: linear-gradient(to right, #000428, #004e92);
+  color: #f7f7f9;
+  padding: 1em;
+  font-family: "Bungee Tint", sans-serif;
+  text-align: center;
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2em;
+}
+
+/* Typography */
+
+h1,
+h2,
+button {
+  transition: all 0.3s ease;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+/* Button */
+
+button {
+  height: 100px;
+  width: 100px;
+  background-color: #f7e733;
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+}
